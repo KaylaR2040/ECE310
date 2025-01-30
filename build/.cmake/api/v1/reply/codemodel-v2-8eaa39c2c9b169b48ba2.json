@@ -1,0 +1,246 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"build" : "Google_test",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-Google_test-Debug-711100fae5316ba37bb7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Google_test"
+				},
+				{
+					"build" : "Google_test/lib",
+					"jsonFile" : "directory-Google_test.lib-Debug-20e9566c49c16e91155b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "Google_test/lib",
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				},
+				{
+					"build" : "lec01",
+					"jsonFile" : "directory-lec01-Debug-021c5a3ac33e563e8c8b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "lec01",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "lec03",
+					"jsonFile" : "directory-lec03-Debug-d7677bb950ae9b0bc7fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "lec03",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ece309_spr2025_examples",
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Google_test",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "lec01",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "lec03",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0ad4c855fc9797ad01d0",
+					"jsonFile" : "target-gtest-Debug-76c3fc5ada2c2b77e591.json",
+					"name" : "gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gtest_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gtest_example-Debug-2e357fc81e1749eed5e3.json",
+					"name" : "gtest_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0ad4c855fc9797ad01d0",
+					"jsonFile" : "target-gtest_main-Debug-a05b3c97a8c14e6faae4.json",
+					"name" : "gtest_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "lec01_average::@94fb064debc668987581",
+					"jsonFile" : "target-lec01_average-Debug-24a58b8606bc1f77a9f0.json",
+					"name" : "lec01_average",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "lec01_basic::@94fb064debc668987581",
+					"jsonFile" : "target-lec01_basic-Debug-0bc919d8349ab0cc0aa4.json",
+					"name" : "lec01_basic",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "lec03_extract::@fe71c46568f97ef47416",
+					"jsonFile" : "target-lec03_extract-Debug-c4980028e046b8728dd1.json",
+					"name" : "lec03_extract",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "lec03_refs::@fe71c46568f97ef47416",
+					"jsonFile" : "target-lec03_refs-Debug-e90f7b6466a97e846a99.json",
+					"name" : "lec03_refs",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "lec03_vector::@fe71c46568f97ef47416",
+					"jsonFile" : "target-lec03_vector-Debug-3f1177ca74431fbc9094.json",
+					"name" : "lec03_vector",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-a7b36bc17e3b905a7a97.json",
+					"name" : "main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/kaylaradu/GitHubRepos/GitNCSU/ece309_spr25_examples/build",
+		"source" : "/Users/kaylaradu/GitHubRepos/GitNCSU/ece309_spr25_examples"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
